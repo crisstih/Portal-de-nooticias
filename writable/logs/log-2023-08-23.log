@@ -1,0 +1,45 @@
+CRITICAL - 2023-08-23 14:09:45 --> Assignments can only happen to writable values
+in APPPATH\Controllers\Home.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-08-23 14:10:31 --> Undefined variable $title
+in APPPATH\Views\header.php on line 8.
+ 1 APPPATH\Views\header.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\briciadiaz_td\\app\\Views\\header.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\briciadiaz_td\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('header.php', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('header.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->registro()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-23 14:11:00 --> syntax error, unexpected token "<", expecting end of file
+in APPPATH\Views\header.php on line 3.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('header.php', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('header.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->registro()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-23 14:11:22 --> Undefined variable $title
+in APPPATH\Views\header.php on line 9.
+ 1 APPPATH\Views\header.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\briciadiaz_td\\app\\Views\\header.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\briciadiaz_td\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('header.php', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('header.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->registro()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-23 14:11:58 --> Undefined variable $title
+in APPPATH\Views\header.php on line 9.
+ 1 APPPATH\Views\header.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\briciadiaz_td\\app\\Views\\header.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\briciadiaz_td\\app\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('header.php', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('header.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->registro()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

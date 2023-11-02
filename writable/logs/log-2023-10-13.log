@@ -1,0 +1,349 @@
+CRITICAL - 2023-10-13 20:20:18 --> require(conexion.php): Failed to open stream: No such file or directory
+in APPPATH\Views\front\noticias.php on line 9.
+ 1 APPPATH\Views\front\noticias.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(conexion.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php', 9)
+ 2 APPPATH\Views\front\noticias.php(9): require()
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('front/noticias', [], true)
+ 6 APPPATH\Controllers\Home.php(13): view('front/noticias')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->noticias()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 20:37:09 --> Undefined variable $noticia
+in APPPATH\Views\front\noticias.php on line 9.
+ 1 APPPATH\Views\front\noticias.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $noticia', 'C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('front/noticias', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('front/noticias')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->noticias()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 20:55:43 --> Undefined variable $noticia
+in APPPATH\Views\front\noticias.php on line 6.
+ 1 APPPATH\Views\front\noticias.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $noticia', 'C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('front/noticias', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('front/noticias')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->noticias()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 20:55:45 --> Undefined variable $noticia
+in APPPATH\Views\front\noticias.php on line 6.
+ 1 APPPATH\Views\front\noticias.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $noticia', 'C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('front/noticias', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('front/noticias')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->noticias()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 21:00:21 --> Undefined variable $noticia
+in APPPATH\Views\front\noticias.php on line 6.
+ 1 APPPATH\Views\front\noticias.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $noticia', 'C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('front/noticias', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('front/noticias')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->noticias()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 21:00:23 --> Undefined variable $noticia
+in APPPATH\Views\front\noticias.php on line 6.
+ 1 APPPATH\Views\front\noticias.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $noticia', 'C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('front/noticias', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('front/noticias')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->noticias()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 21:00:25 --> Undefined variable $noticia
+in APPPATH\Views\front\noticias.php on line 6.
+ 1 APPPATH\Views\front\noticias.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $noticia', 'C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('front/noticias', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('front/noticias')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->noticias()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 21:01:38 --> Undefined variable $noticia
+in APPPATH\Views\front\noticias.php on line 6.
+ 1 APPPATH\Views\front\noticias.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $noticia', 'C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('front/noticias', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('front/noticias')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->noticias()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 21:05:09 --> Undefined variable $noticia
+in APPPATH\Views\front\noticias.php on line 6.
+ 1 APPPATH\Views\front\noticias.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $noticia', 'C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('front/noticias', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('front/noticias')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->noticias()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 21:05:10 --> Undefined variable $noticia
+in APPPATH\Views\front\noticias.php on line 6.
+ 1 APPPATH\Views\front\noticias.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $noticia', 'C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('front/noticias', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('front/noticias')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->noticias()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 21:05:45 --> Undefined variable $noticia
+in APPPATH\Views\front\noticias.php on line 6.
+ 1 APPPATH\Views\front\noticias.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $noticia', 'C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('front/noticias', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('front/noticias')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->noticias()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 21:07:40 --> Undefined variable $noticia
+in APPPATH\Views\front\noticias.php on line 6.
+ 1 APPPATH\Views\front\noticias.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $noticia', 'C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('front/noticias', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('front/noticias')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->noticias()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 21:07:41 --> Undefined variable $noticia
+in APPPATH\Views\front\noticias.php on line 6.
+ 1 APPPATH\Views\front\noticias.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $noticia', 'C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('front/noticias', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('front/noticias')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->noticias()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 21:07:42 --> Undefined variable $noticia
+in APPPATH\Views\front\noticias.php on line 6.
+ 1 APPPATH\Views\front\noticias.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $noticia', 'C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('front/noticias', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('front/noticias')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->noticias()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 21:08:11 --> Undefined variable $noticias
+in APPPATH\Views\front\noticias.php on line 6.
+ 1 APPPATH\Views\front\noticias.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $noticias', 'C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('front/noticias', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('front/noticias')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->noticias()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 21:08:14 --> Undefined variable $noticias
+in APPPATH\Views\front\noticias.php on line 6.
+ 1 APPPATH\Views\front\noticias.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $noticias', 'C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('front/noticias', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('front/noticias')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->noticias()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 21:12:35 --> Undefined variable $noticias
+in APPPATH\Views\front\noticias.php on line 7.
+ 1 APPPATH\Views\front\noticias.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $noticias', 'C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('front/noticias', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('front/noticias')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->noticias()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 21:14:26 --> Undefined variable $noticias
+in APPPATH\Views\front\noticias.php on line 7.
+ 1 APPPATH\Views\front\noticias.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $noticias', 'C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('front/noticias', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('front/noticias')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->noticias()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 21:14:29 --> Undefined variable $noticias
+in APPPATH\Views\front\noticias.php on line 7.
+ 1 APPPATH\Views\front\noticias.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $noticias', 'C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('front/noticias', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('front/noticias')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->noticias()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 21:14:30 --> Undefined variable $noticias
+in APPPATH\Views\front\noticias.php on line 7.
+ 1 APPPATH\Views\front\noticias.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $noticias', 'C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('front/noticias', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('front/noticias')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->noticias()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 21:16:51 --> Undefined variable $noticias
+in APPPATH\Views\front\noticias.php on line 7.
+ 1 APPPATH\Views\front\noticias.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $noticias', 'C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('front/noticias', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('front/noticias')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->noticias()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 21:16:52 --> Undefined variable $noticias
+in APPPATH\Views\front\noticias.php on line 7.
+ 1 APPPATH\Views\front\noticias.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $noticias', 'C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('front/noticias', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('front/noticias')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->noticias()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 21:20:56 --> Undefined variable $noticias
+in APPPATH\Views\front\noticias.php on line 7.
+ 1 APPPATH\Views\front\noticias.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $noticias', 'C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('front/noticias', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('front/noticias')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->noticias()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 21:20:57 --> Undefined variable $noticias
+in APPPATH\Views\front\noticias.php on line 7.
+ 1 APPPATH\Views\front\noticias.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $noticias', 'C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\portal_noticias\\app\\Views\\front\\noticias.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('front/noticias', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('front/noticias')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->noticias()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 21:34:23 --> syntax error, unexpected token "echo", expecting "," or ";"
+in APPPATH\Controllers\noticias_Controller.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\portal_noticias\\app\\Controllers\\noticias_Controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\noticias_Controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\noticias_Controller')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\noticias_Controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 21:34:48 --> syntax error, unexpected token "echo"
+in APPPATH\Controllers\noticias_Controller.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\portal_noticias\\app\\Controllers\\noticias_Controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\noticias_Controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\noticias_Controller')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\noticias_Controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 21:34:53 --> syntax error, unexpected token "echo"
+in APPPATH\Controllers\noticias_Controller.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\portal_noticias\\app\\Controllers\\noticias_Controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\noticias_Controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\noticias_Controller')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\noticias_Controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 21:44:28 --> syntax error, unexpected token "<"
+in APPPATH\Controllers\usuario_Controller.php on line 57.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\portal_noticias\\app\\Controllers\\usuario_Controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\usuario_Controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\usuario_Controller')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\usuario_Controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 21:44:57 --> syntax error, unexpected token "<", expecting "function" or "const"
+in APPPATH\Controllers\usuario_Controller.php on line 74.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\portal_noticias\\app\\Controllers\\usuario_Controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\usuario_Controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\usuario_Controller')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\usuario_Controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 21:45:05 --> Unmatched '}'
+in APPPATH\Controllers\usuario_Controller.php on line 307.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\portal_noticias\\app\\Controllers\\usuario_Controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\usuario_Controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\usuario_Controller')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\usuario_Controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 21:45:18 --> Class "App\Controllers\UsuariosModel" not found
+in APPPATH\Controllers\usuario_Controller.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\usuario_Controller->listar_usuarios()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 21:46:27 --> Class "App\Models\usuarios_Model" not found
+in APPPATH\Controllers\usuario_Controller.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\usuario_Controller->listar_usuarios()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 21:46:57 --> Class "App\Models\usuarios_Model" not found
+in APPPATH\Controllers\usuario_Controller.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\usuario_Controller->listar_usuarios()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-13 21:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-13 21:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-13 21:58:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-13 22:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-13 22:02:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-13 22:02:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-13 22:02:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-13 22:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-13 22:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-13 22:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-13 22:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-13 22:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

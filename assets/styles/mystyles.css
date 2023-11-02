@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container-imagen{
+    background-color:#000821;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.card {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px 0 #177ADD;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #666;
+}
+
+.container-fluid {
+    padding: 20px;
+}
+
+.titulo{
+    color: #000821;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 0px 7px 2px #177ADD;
+    animation: slide 7s forwards infinite;
+}
+
+
+
+@keyframes slide {
+    0% {transform: translateX(-100%);}
+    50% {transform: translateX(0) scale(1.2);}
+    75% {transform: translateX(0);}
+    100% {transform: translateX(100%);}
+}
+
+#footer{
+    background-color: #000821!important;
+}
